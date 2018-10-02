@@ -13,7 +13,7 @@ public class MyEventsServiceModel {
 
     private LocalDateTime endTime;
 
-    private Integer tickets;
+    private int totalTickets;
 
     public MyEventsServiceModel() {
     }
@@ -58,11 +58,11 @@ public class MyEventsServiceModel {
         this.endTime = endTime;
     }
 
-    public Integer getTickets() {
-        return this.tickets;
+    public int getTotalTickets() {
+        return this.totalTickets;
     }
 
-    public void setTickets(Integer tickets) {
-        this.tickets = tickets;
+    public void setTotalTickets(int totalTickets) {
+        this.totalTickets = totalTickets;
     }
 }

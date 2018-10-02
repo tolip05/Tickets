@@ -130,7 +130,7 @@ public class EventServiceImpl implements EventService {
             MyEventsServiceModel resultModel1 =
                     this.modelMapper
                             .map(orderServiceModel.getEvent(), MyEventsServiceModel.class);
-            resultModel1.setTickets(orderServiceModel.getTicketsCount());
+            resultModel1.setTotalTickets(orderServiceModel.getTicketsCount());
             myEventsServiceModel.add(resultModel1);
 
 
